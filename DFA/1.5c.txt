@@ -1,0 +1,26 @@
+#
+# alphabet
+#
+Sigma:
+	a
+	b
+End
+#
+# states
+#
+States:
+	1,s
+	2,f
+	3,f
+	4
+End
+Transitions:
+	1,a,2
+	1,b,3
+	2,a,2
+	3,b,3
+	2,b,4
+	3,a,4
+	4,a,4
+	4,b,4
+End
