@@ -1,0 +1,17 @@
+#
+# alphabet
+#
+Sigma:
+	0
+	1
+End
+#
+# states
+#
+States:
+	1,s
+	2,f
+End
+Transitions:
+	1,0,2
+End
